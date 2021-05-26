@@ -44,7 +44,7 @@ services:
       context: ./build/bor
       dockerfile: Dockerfile
     environment:
-      - SNAPSHOT_DATE=2021-04-29
+      - SNAPSHOT_DATE=2021-05-20
       - BOOTSTRAP=1
     volumes:
       - "bor:/datadir"
